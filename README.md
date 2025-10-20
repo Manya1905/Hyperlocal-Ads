@@ -1,6 +1,6 @@
 ## Hyperlocal Ad Insertion Feature
 A dynamic ad insertion system that delivers location-based advertisements during video playback. Built with an Angular front-end and MySQL database, the platform enables advertisers to target viewers based on their geographic location.
-The system uses geospatial targeting powered by RedisGeo and a Spring Boot/Java backend to efficiently identify and fetch the nearest relevant ads within a defined radius. When a viewer watches a video, the platform automatically inserts up to 3 contextually relevant ad slots based on their location.
+The system uses geospatial targeting powered by RedisGeo and a Spring Boot/Java backend to efficiently identify and fetch the nearest relevant ads within a defined radius. When a viewer watches a video, the platform automatically inserts up to 3 ad based on their location.
 Advertisers can configure campaigns by specifying their budget and target geo-radius using latitude/longitude coordinates, ensuring their ads reach the most relevant local audience.
 
 ### Screenshot of the "Create Ad" Page
