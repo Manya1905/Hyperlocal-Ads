@@ -1,0 +1,10 @@
+body {
+  font-family: 'Nunito', 'Quicksand', sans-serif;
+  background: linear-gradient(135deg, #ffe6cc, #fff8e7);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 40px;
+} 

@@ -1,0 +1,145 @@
+/*******************************
+ * Page / Host
+ *******************************/
+:host{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding:20px 12px;
+  min-height:100vh;
+  background:linear-gradient(135deg,#e0f7fa,#f0faff);
+  font-family:'Nunito','Quicksand',sans-serif;
+  color:#333;
+  box-sizing:border-box;
+}
+
+/*******************************
+ * Title
+ *******************************/
+h2{
+  text-align:center;
+  font-size:1.9rem;
+  font-weight:700;
+  color:#2a78b8;
+  margin-bottom:0.75rem;
+}
+
+/*******************************
+ * Labels + Inputs
+ *******************************/
+label{
+  display:flex;
+  flex-direction:column;
+  gap:4px;
+  font-weight:600;
+  color:#444;
+  margin-bottom:0.6rem;
+}
+
+input[type="number"]{
+  padding:6px 10px;
+  border-radius:10px;
+  border:2px solid #b3e5fc;
+  outline:none;
+  font-size:0.9rem;
+  transition:border-color .2s, box-shadow .2s;
+  max-width:180px;
+}
+
+input[type="number"]:focus{
+  border-color:#4fc3f7;
+  box-shadow:0 0 0 2px rgba(79,195,247,0.22);
+}
+
+/*******************************
+ * Button
+ *******************************/
+button{
+  background:linear-gradient(135deg,#81d4fa,#4fc3f7);
+  color:#fff;
+  font-size:0.95rem;
+  font-weight:600;
+  padding:10px 18px;
+  border:none;
+  border-radius:30px;
+  cursor:pointer;
+  transition:background .25s, transform .15s, box-shadow .2s;
+  box-shadow:0 3px 8px rgba(42,120,184,0.18);
+  margin:10px 0 12px;
+  max-width:180px;
+}
+button:hover{
+  background:linear-gradient(135deg,#a6e4fb,#29b6f6);
+  transform:translateY(-1px);
+  box-shadow:0 5px 12px rgba(42,120,184,0.22);
+}
+button:active{
+  transform:translateY(0);
+  box-shadow:0 2px 6px rgba(42,120,184,0.18);
+}
+
+/*******************************
+ * Video + Ad row
+ *******************************/
+.player-wrap{
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;     /* don’t stretch to video height */
+  gap:16px;
+  margin-top:10px;
+}
+
+/* Video (fixed size; no flex growth) */
+video{
+  display:block;
+  width:640px;
+  height:360px;
+  border-radius:12px;
+  box-shadow:0 6px 16px rgba(42,120,184,.12);
+  flex:0 0 auto;
+  z-index:1;
+}
+
+.ad-container{
+  position:relative;
+  width:640px;
+  height:375px;           
+  flex:0 0 auto;
+  overflow:hidden;
+  border-radius:12px;
+  background:#f0faff;
+}
+
+/* wrapper we inject around the ad markup */
+.ad-container .companion-wrapper{
+  width:100%;
+  height:100%;
+  display:grid;
+  place-items:center;     
+  overflow:hidden;
+}
+
+/* normalize anything we (or IMA HTML) insert */
+.ad-container .companion-wrapper img,
+.ad-container .companion-wrapper video{
+  width:100% !important;
+  height:100% !important;
+  object-fit:contain !important;  /* fit without crop or stretch */
+  display:block;
+}
+
+/* if the companion is an iframe, at least size the frame */
+.ad-container .companion-wrapper iframe{
+  width:100% !important;
+  height:100% !important;
+  border:0;
+}
+
+/*keep the box responsive but locked to 640x375 ratio */
+@media (max-width: 720px){
+  .ad-container{
+    width:100%;
+    height:auto;
+    aspect-ratio: 640 / 375;
+  }
+}

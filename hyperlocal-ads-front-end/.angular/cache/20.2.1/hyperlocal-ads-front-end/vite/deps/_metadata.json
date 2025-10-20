@@ -1,0 +1,76 @@
+{
+  "hash": "e1c8b619",
+  "configHash": "c74cd54f",
+  "lockfileHash": "d9e581b9",
+  "browserHash": "1d3c68d5",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "f49c2ec3",
+      "needsInterop": false
+    },
+    "@angular/common/http": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "1a8a62f7",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "ba4cfa26",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "2c4f6a9f",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "00489a7f",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "357f7cbc",
+      "needsInterop": false
+    },
+    "shaka-player": {
+      "src": "../../../../../../node_modules/shaka-player/dist/shaka-player.compiled.js",
+      "file": "shaka-player.js",
+      "fileHash": "e71b47c4",
+      "needsInterop": true
+    },
+    "zone.js": {
+      "src": "../../../../../../node_modules/zone.js/fesm2015/zone.js",
+      "file": "zone__js.js",
+      "fileHash": "9be3af4a",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-AN7BKBZN": {
+      "file": "chunk-AN7BKBZN.js"
+    },
+    "chunk-ZERGLUEN": {
+      "file": "chunk-ZERGLUEN.js"
+    },
+    "chunk-MS4BADWC": {
+      "file": "chunk-MS4BADWC.js"
+    },
+    "chunk-YW65FSQM": {
+      "file": "chunk-YW65FSQM.js"
+    },
+    "chunk-4H46PDIF": {
+      "file": "chunk-4H46PDIF.js"
+    },
+    "chunk-3OV72XIM": {
+      "file": "chunk-3OV72XIM.js"
+    }
+  }
+}

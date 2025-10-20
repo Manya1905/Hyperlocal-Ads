@@ -1,0 +1,41 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 12px 16px;
+  background: #eaf6ff;               
+  border-bottom: 1px solid #cfe8ff;
+  font-family: 'Nunito', 'Quicksand', sans-serif; 
+}
+
+/* Links */
+.nav-link {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #2a78b8;                     
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: color 0.25s, background 0.25s, transform 0.15s;
+}
+
+/* Hover effect */
+.nav-link:hover {
+  color: #1565c0;
+  background: #dff0ff;
+  transform: translateY(-1px);
+  cursor: pointer;
+}
+
+/* Active page */
+.nav-link.active {
+  color: #0d47a1;
+  border-bottom: 2px solid #0d47a1;
+}
+
+/* Divider */
+.divider {
+  color: #90caf9;                     
+}
