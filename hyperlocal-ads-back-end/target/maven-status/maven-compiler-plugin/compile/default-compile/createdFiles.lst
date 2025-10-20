@@ -1,8 +1,0 @@
-com\example\hyperlocalads\repository\AdRepository.class
-com\example\hyperlocalads\controller\MatchRequest.class
-com\example\hyperlocalads\HyperlocaladsApplication.class
-com\example\hyperlocalads\service\AdService.class
-com\example\hyperlocalads\config\RedisSmokeTest.class
-com\example\hyperlocalads\controller\AdController.class
-com\example\hyperlocalads\entity\Ad.class
-com\example\hyperlocalads\config\RedisConfig.class
