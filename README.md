@@ -9,6 +9,6 @@ Advertisers can configure campaigns by specifying their budget and target geo-ra
 
 ### Screenshot of the "Playback" Page
 - Users enter their latitude and longitude in order to determine what ads display as they watch content.
-- 
+
   <img width="671" height="364" alt="image" src="https://github.com/user-attachments/assets/a43df67a-15df-4f36-8bd6-d13747f1b3bc" />
 
